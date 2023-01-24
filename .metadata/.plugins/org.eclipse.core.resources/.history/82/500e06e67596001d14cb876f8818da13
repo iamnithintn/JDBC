@@ -1,0 +1,20 @@
+package com.nithin;
+
+import java.sql.*;             //Step:1
+
+public class StepsForJDBC {
+
+	public static void main(String[] args) {
+
+		try {
+			Class.forName("com.mysql.jdbc.Driver");       //Step: 2
+			System.out.println("Driver Class Loaded");
+			
+			Connection c = DriverManager.getConnection("jdbc:mysql//");
+			
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,18 @@
+package com.nithin;
+
+import java.sql.*;
+
+public class DeletingInJDBC {
+	
+	public static void main(String[] args) {
+		
+		try {
+			Class.forName("com.mysql.cj.");
+		} catch (ClassNotFoundException e) {
+
+			e.printStackTrace();
+		}
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.nithin;
+
+public class DeletingInJDBC {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
